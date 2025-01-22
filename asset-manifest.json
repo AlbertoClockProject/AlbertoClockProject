@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AlbertoClockProject/static/css/main.426894df.css",
+    "main.css": "/AlbertoClockProject/static/css/main.ba8c5b8d.css",
     "main.js": "/AlbertoClockProject/static/js/main.c389111d.js",
     "static/js/488.0b1efe69.chunk.js": "/AlbertoClockProject/static/js/488.0b1efe69.chunk.js",
     "static/media/image2.png": "/AlbertoClockProject/static/media/image2.0fcad78eaa26ffd0f7bf.png",
@@ -20,12 +20,12 @@
     "static/media/image6.png": "/AlbertoClockProject/static/media/image6.e10ec72ee356493be23e.png",
     "static/media/image4.png": "/AlbertoClockProject/static/media/image4.9561f4dd0a90b85d4b7e.png",
     "index.html": "/AlbertoClockProject/index.html",
-    "main.426894df.css.map": "/AlbertoClockProject/static/css/main.426894df.css.map",
+    "main.ba8c5b8d.css.map": "/AlbertoClockProject/static/css/main.ba8c5b8d.css.map",
     "main.c389111d.js.map": "/AlbertoClockProject/static/js/main.c389111d.js.map",
     "488.0b1efe69.chunk.js.map": "/AlbertoClockProject/static/js/488.0b1efe69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.426894df.css",
+    "static/css/main.ba8c5b8d.css",
     "static/js/main.c389111d.js"
   ]
 }
