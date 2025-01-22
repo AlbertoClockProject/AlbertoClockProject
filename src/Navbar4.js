@@ -28,7 +28,7 @@ function NavbarWithIcons() {
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                     >
-                        Dropdown <i className="bi"></i>
+                        Info <i className="bi"></i>
                     </button>
                     <ul className="dropdown-menu" aria-labelledby="categoryDropdown">
                         <li><a className="dropdown-item" href="#">Settings</a></li>
