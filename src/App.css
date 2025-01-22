@@ -1,0 +1,375 @@
+.nav-link {
+  color: black;
+  font-weight: 500;
+  font-size: 3vh;
+}
+.nav-link:hover {
+  color: black !important;
+}
+
+
+.sticky-second {
+  top: 55px;
+  /* Height of the first navbar */
+  z-index: 1030;
+  /* Ensures proper stacking order */
+}
+
+/*css of nav4*/
+.navbar-custom {
+  background: #fff;
+  border-bottom: 2px solid #ddd;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-custom .navbar-btn-group .btn {
+  background-color: transparent;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar-custom .navbar-btn-group .btn:hover {
+  background-color: #f7f7f7;
+  transform: scale(1.05);
+}
+
+.navbar-logo {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-custom .btn-dropdown {
+  background-color: transparent;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #333;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar-custom .btn-dropdown:hover {
+  background-color: #f7f7f7;
+  transform: scale(1.05);
+}
+
+.navbar-custom .dropdown i {
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+}
+
+.navbar-custom .dropdown:hover i {
+  transform: rotate(180deg);
+}
+
+.navbar-custom .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*logo*/
+.navbar-logo {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-image {
+  max-height: 53px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* fonts */
+.custom-font {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/*sidebar css*/
+.sidebar {
+  width: 180px;
+  min-width: 120px; 
+  max-width: 180px; 
+  height: 2275px;
+  background: linear-gradient(180deg, #f8f9fa 0%, #f8f9fa 100%);
+  border-right: 2px solid #ddd;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-x: hidden; 
+}
+
+.slider-fonts {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.5px;
+  white-space: normal; 
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: nowrap; 
+}
+.sidebar {
+  flex-shrink: 1;
+}
+
+
+
+/*FOOTER icon 2 css*/
+.icons-2{
+  font-size: 2em;
+}
+.icons-2 .amex {
+  color: #007bc1; 
+}
+
+.icons-2 .paypal {
+  color: #003087; 
+}
+
+.icons-2 .visa {
+  color: #1a1f71; 
+}
+
+.icons-2 .mastercard {
+  color: #eb001b; 
+}
+
+.icons-2 .google-pay {
+  color: #4285F4; 
+}
+
+.icons-2 .apple-pay {
+  color: #000000; 
+}
+
+/*FOOTER icon 1 css*/
+.icons-1{
+  font-size: 2em;
+}
+
+.icons-1 .facebook-icon {
+  color: #1a3469; 
+}
+
+.icons-1 .instagram-icon {
+  color: #e1306c;
+}
+
+.icons-1 .tiktok-icon {
+  color: #010101;
+}
+
+/* hover effects */
+.icons-1 .facebook-icon:hover {
+  color: #365899;
+}
+
+.icons-1 .instagram-icon:hover {
+  color: #e1306c;
+}
+
+.icons-1 .tiktok-icon:hover {
+  color: #69C9D0;
+}
+
+:target {
+  padding-top: 100px; /* Add space at the top */
+  margin-top: -100px; /* Offset the scroll */
+}
+
+/* cards hover effect css*/
+.card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  font-size: 1rem;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.card-body .card-title {
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-body .card-text {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/*sale css*/
+.sale-banner button:hover {
+  background-color: #ff5733;
+  color: white;
+  border-color: #ffffff;
+}
+
+.time-box {
+  width: 90px;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.time-value {
+  color: #ff5733;
+}
+
+
+ /* gift cards css*/
+
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.card-body i {
+  transition: color 0.3s ease;
+}
+
+.card:hover .card-body i {
+  color: #d9534f;
+}
+
+.card-body .btn {
+  background-color: #d9534f;
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.card-body .btn:hover {
+  background-color: #c9302c;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* responsive navbar3*/
+.navbar .nav {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  gap: 15px; /* Adds spacing between buttons */
+}
+
+.navbar .nav-link {
+  font-size: 1.3rem; /* Default font size for full screen */
+  text-decoration: none;
+  color: #000; /* Adjust color as per your theme */
+  padding: 5px 10px;
+  transition: all 0.2s ease-in-out;
+  white-space: nowrap; /* Prevents breaking text */
+}
+
+.navbar .nav-link:hover {
+  color: #007bff; /* Adjust hover color */
+}
+
+@media (max-width: 1000px) {
+  .navbar .nav-link {
+      font-size: 0.9rem; /* Smaller font size for reduced screen sizes */
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar .nav-link {
+      font-size: 0.8rem; /* Even smaller font size for very small screens */
+  }
+}
+
+
+/* Availability css */
+.availability-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.availability-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.availability-status {
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.in-stock {
+  background-color: #28a745;
+  color: white;
+}
+
+.out-of-stock {
+  background-color: #dc3545;
+  color: white;
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
+
+
+.btn-dropdown {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
