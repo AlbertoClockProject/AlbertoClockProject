@@ -5,7 +5,7 @@ function Navbar3() {
     return (
         <nav className="navbar bg-body-white">
             <div className="container-fluid">
-                <ul className="nav nav-underline justify-content-evenly w-100 w-md-50 w-lg-25 d-flex">
+                <ul className="nav nav-underline justify-content-evenly w-100 w-md-50 w-lg-25 d-flex flex-wrap">
                     <li className="nav-item">
                         <a
                             className="nav-link"
